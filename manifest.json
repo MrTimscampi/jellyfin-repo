@@ -1,0 +1,21 @@
+[
+  {
+    "guid": "a9f62a44-fea5-46c3-ac26-55abba29c7c8",
+    "name": "Apple Music",
+    "description": "This is an experimental image provider for album and artists, which fetches images from Apple Music. THIS HAS NO RATE LIMITING, SO YOU'RE LIKELY TO GET A BUNCH OF TIMEOUTS.\n",
+    "overview": "Provides album and artist images from Apple Music",
+    "owner": "MrTimscampi",
+    "category": "Metadata",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial release. - Add album image provider - Add artist image provider\n",
+        "targetAbi": "10.7.0.0",
+        "sourceUrl": "https://raw.githubusercontent.com/MrTimscampi/jellyfin-repo/master/apple-music/apple-music_1.0.0.0.zip",
+        "checksum": "0e2eef1912b8b1ee752c7a1f6e79daea",
+        "timestamp": "2021-03-21T01:07:01Z"
+      }
+    ],
+    "imageUrl": "https://raw.githubusercontent.com/MrTimscampi/jellyfin-repo/master/apple-music/image.png"
+  }
+]
