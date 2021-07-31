@@ -1,21 +1,40 @@
 [
-  {
-    "guid": "a9f62a44-fea5-46c3-ac26-55abba29c7c8",
-    "name": "Apple Music",
-    "description": "This is an experimental image provider for album and artists, which fetches images from Apple Music. THIS HAS NO RATE LIMITING, SO YOU'RE LIKELY TO GET A BUNCH OF TIMEOUTS.\n",
-    "overview": "Provides album and artist images from Apple Music",
-    "owner": "MrTimscampi",
-    "category": "Metadata",
-    "versions": [
-      {
-        "version": "1.0.0.0",
-        "changelog": "Initial release. - Add album image provider - Add artist image provider\n",
-        "targetAbi": "10.7.0.0",
-        "sourceUrl": "https://raw.githubusercontent.com/MrTimscampi/jellyfin-repo/master/apple-music/apple-music_1.0.0.0.zip",
-        "checksum": "0e2eef1912b8b1ee752c7a1f6e79daea",
-        "timestamp": "2021-03-21T01:07:01Z"
-      }
-    ],
-    "imageUrl": "https://raw.githubusercontent.com/MrTimscampi/jellyfin-repo/master/apple-music/image.png"
-  }
+    {
+        "guid": "a9f62a44-fea5-46c3-ac26-55abba29c7c8",
+        "name": "Apple Music",
+        "description": "This is an experimental image provider for album and artists, which fetches images from Apple Music. THIS HAS NO RATE LIMITING, SO YOU'RE LIKELY TO GET A BUNCH OF TIMEOUTS.\n",
+        "overview": "Provides album and artist images from Apple Music",
+        "owner": "MrTimscampi",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.0.0.0",
+                "changelog": "Initial release. - Add album image provider - Add artist image provider\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/MrTimscampi/jellyfin-repo/master/apple-music/apple-music_1.0.0.0.zip",
+                "checksum": "0e2eef1912b8b1ee752c7a1f6e79daea",
+                "timestamp": "2021-03-21T01:07:01Z"
+            }
+        ],
+        "imageUrl": "https://raw.githubusercontent.com/MrTimscampi/jellyfin-repo/master/apple-music/image.png"
+    },
+    {
+        "guid": "8119f3c6-cfc2-4d9c-a0ba-028f1d93e526",
+        "name": "Cover Art Archive",
+        "description": "This plugin provides images from the Cover Art Archive https://musicbrainz.org/doc/Cover_Art_Archive and depends on the MusicBrainz metadata provider to know what images belong where\n",
+        "overview": "MusicBrainz Cover Art Archive",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "4.0.0.0",
+                "changelog": "### New features and improvements ###\n- chore: plugin images (#5) @h1dden-da3m0n\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#4) @dependabot\n\n### CI & build changes ###\n- Update ci (#9) @h1dden-da3m0n\n- Create release prep PR on release draft update (#7) @oddstr13\n- Add analyzers and remove all warnings (#3) @crobibero\n- Let there be CI (#2) @oddstr13",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://raw.githubusercontent.com/MrTimscampi/jellyfin-repo/next/cover-art-archive/cover-art-archive_4.0.0.0.zip",
+                "checksum": "db7c940aec06f6193f452a2356f6b419",
+                "timestamp": "2021-07-31T19:50:21Z"
+            }
+        ],
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-coverartarchive.png"
+    }
 ]
